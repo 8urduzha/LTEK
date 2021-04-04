@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Circular Content Carousel with jQuery" />
+ 	<meta name="keywords" content="jquery, conent slider, content carousel, circular, expanding, sliding, css3" />
+	<link rel="shortcut icon" href="../favicon.ico"> 
+ 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<!--<script type="text/javascript" src="js/script.js"></script>-->
+</script>
+	<title>ЛТЕК НУ "ЛП"</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="cd-main-nav-wrapper">
+			<ul class="cd-main-nav">
+				<li class="ltek-mn"><a href="http://nikos.zzz.com.ua/ltek_beta/ltek/index.html" style="
+        font-size: 30px;
+    margin-top: -12px;	
+    text-align: left;
+    height: 0px;
+">Львівський техніко-економічний <br> коледж НУ "ЛП"</a></li>
+
+				<li><a href="#main">Головна</a></li>
+				<li><a href="#novyny">Новини</a></li>
+				<li><a href="#contacts">Контакти</a></li>
+				<li>
+					<a href="#0" class="cd-subnav-trigger"><span>Розділи</span></a>
+					<ul>
+						<li class="go-back"><a href="#0">Меню</a></li>
+						<li><a href="collage/index.html">Про коледж</a></li>
+						<li><a href="department/index.html">Відділення </a></li>
+						<li><a href="student/index.html">Студенту</a></li>
+						<li><a href="abitur/index.html">Абітурієнту</a></li>
+						<li><a href="#0" class="placeholder">Placeholder</a></li>
+					</ul>
+				</li>
+			</ul> <!-- .cd-main-nav -->
+		</nav> <!-- .cd-main-nav-wrapper -->
+		<a href="#0" class="ltek-mb cd-nav-trigger">Menu<span></span></a>
+		<a href="#" class="ltek-mb" style="
+        color: #fff;
+    text-align: left;
+    font-size: 24px;
+    position: absolute;
+    height: 2px;
+    top: 30%;
+    left: 5%;
+    margin-left: -10px;
+">ЛТЕК НУ "ЛП"<span></span></a>
+	</header>
+	<main class="cd-main-content" id="main">
+	<div class="container">
+		<section>
+				<div class="header-fone">
+					<img src="css/images/fone.jpg" class="fone">
+				</div>
+				<div class="collage">
+					<center>
+						<div class="bmd" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/collage/about-collage/index.html'">
+							<div class="bmd1">
+								<img src="images/book.png" alt="" class="img-f-hover">
+								<!--<img src="images/book2.png" alt="" class="img-t-hover">-->
+							</div>
+								<h2><strong>Про коледж</strong></h2>
+								<p>Інформація про коледж <br> та історична довідка</p>
+						</div>
+						<div class="bmd" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/collage/awards/index.html'">
+							<div class="bmd1"> 
+								<img src="images/medal.png" alt="" class="img-f-hover">
+								<!--<img src="images/medal2.png" alt="" class="img-t-hover">-->
+							</div>
+							<div>
+								<h2><strong>Наші нагороди</strong></h2>
+								<p>Нагороди працівників <br> та студентів нашого коледжу</p>
+							</div>
+						</div>
+						<div class="bmd" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/collage/index.html#docs'">
+							<div class="bmd1">
+								<img src="images/document.png" alt="" class="img-f-hover">
+								<!--<img src="images/document2.png" alt="" class="img-t-hover">-->
+							</div>
+							<div>
+								<h2><strong>Офіційні документи</strong></h2>
+								<p>Офіційні документи. Положення<br> про академічну доброчесність</p>
+							</div>
+						</div>
+					</center>
+				</div>
+			</section>
+			<section class="adwantages">
+				<center>
+					<h2>Наші переваги</h2>
+				</center>
+				<ul class="ch-grid">
+	<li>
+		<div class="ch-item ch-img-1">
+			<div class="ch-info">
+				<h3>Високо кваліфіковані викладачі</h3>
+				<p>Великий досвід роботи зі студентами, та індивідуальний підхід</p>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="ch-item ch-img-2">
+			<div class="ch-info">
+				<h3>Велика матеріально-технічна база</h3>
+				<p>Лабораторії, технічні класи, бібліотека, комп'ютерні класи.</p>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="ch-item ch-img-3">
+			<div class="ch-info">
+				<h3>Здобуття вищої освіти</h3>
+				<p>Можливість здобуття вищої освіти на базі коледжу</p>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="ch-item ch-img-4">
+			<div class="ch-info">
+				<h3>Вступ до  НУ "Львівська Політехніка"</h3>
+				<p>Після завершення коледжу, можливість вступу на 2-3 курс <br> НУ "ЛП"</p>
+			</div>
+		</div>
+	</li>
+</ul>
+			</section>
+			<section class="department">
+				<center>
+					<h2><strong>Відділення</strong></h2>
+					<div class="promo" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/department/index.html#economic'">
+						<img src="images/economic.png" alt="">
+						<p><strong>Економіка <br> <br></strong></p>
+					</div>
+					<div class="promo" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/department/index.html#pravo'">
+						<img src="images/pravo.png" alt="">
+						<p><strong>Правознавство <br> <br></strong></p>
+					</div>
+					<div class="promo" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/department/index.html#buld'">
+						<img src="images/build.png" alt="">
+						<p><strong>Будівництво та цивільна інженерія</strong></p>
+					</div>
+					<div class="promo" onclick="window.location.href='http://nikos.zzz.com.ua/ltek_beta/ltek/department/index.html#teplo'">
+						<img src="images/teplo.png" alt="">
+						<p><strong>Теплоенергетика <br> <br></strong></p>
+					</div>
+				</center>
+			</section>
+			<section class="sch">
+				<center>
+					<h2 class="abityrienty"><strong>Абітурієнту</strong></h2>
+					<div class="sections">
+						<img src="images/done.png" alt="" class="s1">
+						<p><strong>Положення про  приймальну комісію.  Загальні положення</strong></p>
+					</div>
+					<div class="sections">
+						<img src="images/done.png" alt="" class="s1">
+						<p><strong>Програма вступних випробувань з історії,  математики та укр. мови</strong></p>
+					</div>
+					<div class="sections">
+						<img src="images/done.png" alt="" class="s1">
+						<p><strong>Провідні <br> спеціальності <br> коледжу</strong></p>
+					</div>
+					<div class="sections">
+						<img src="images/done.png" alt="" class="s1">
+						<p><strong>Правила прийому <br> на навчання <br> в коледж</strong></p>
+					</div>
+					<div class="sections">
+						<img src="images/done.png" alt="" class="s1">
+						<p><strong>Програми фахових <br> вступних  випробувань  <br> для спеціальностей</strong></p>
+					</div>
+					<div class="sections" id="novyny">
+						<img src="images/done.png" alt="" class="s1">
+						<p><strong>Терміни <br>  прийому <br> заяв</strong></p>
+					</div>
+				</center>
+			</section>
+			<section id="slider">
+				<center>
+					<h2 id="novyny" ><strong>Новини</strong></h2>
+				</center>
+  				<div id="ca-container" class="ca-container">
+				<div class="ca-wrapper">
+					<div class="ca-item ca-item-1">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 1</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>The greatness of a nation and its moral progress can be judged by the way in which its animals are treated.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Animals are not commodities</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-2">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 2</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>I hold that the more helpless a creature, the more entitled it is to protection by man from the cruelty of man.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Would you eat your dog?</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-3">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 3</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>I feel that spiritual progress does demand at some stage that we should cease to kill our fellow creatures for the satisfaction of our bodily wants.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>You can change the world</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-4">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 4</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A man is but the product of his thoughts what he thinks, he becomes.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Think globally, act locally</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-5">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 5</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A weak man is just by accident. A strong but non-violent man is unjust by accident.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Animals have rights, too!</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-6">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 6</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>An error does not become truth by reason of multiplied propagation, nor does truth become error because nobody sees it.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>How essential is meat?</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-7">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 7</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A small body of determined spirits fired by an unquenchable faith in their mission can alter the course of history.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Collateral damage?</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-8">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Новина 8</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A nation's culture resides in the hearts and in the soul of its people.</span>
+							</h4>
+								<a href="#" class="ca-more">Детальніше</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Let's finally become humans</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="promos">
+						<img src="images/economic.png" alt="">
+						<p><strong>Новина1 <br> <br></strong></p>
+					</div>
+					<div class="promos">
+						<img src="images/pravo.png" alt="">
+						<p><strong>Новина 2 <br> <br></strong></p>
+					</div>
+					<div class="promos">
+						<img src="images/build.png" alt="">
+						<p><strong>Новина 3</strong></p>
+					</div>
+					<div class="promos">
+						<img src="images/teplo.png" alt="">
+						<p><strong>Новина 4<br> <br></strong></p>
+					</div>
+			</section>
+			<section class="student">
+				<center>
+					<h2><strong>Студенту</strong></h2>
+					<div class="stds">
+						<h3>Розклад дзвінків</h3>
+						<p>Розклад дзвінків на перший <br> та другий семестр</p>
+					</div>
+					<div class="stds">
+						<h3>Проходження практики</h3>
+						<p>Інформація про проходження практики для студентів</p>
+					</div>
+					<div class="stds">
+						<h3>Бібліотека</h3>
+						<p>Інформація про бібліотеку. <br> Наявність книжок</p>
+					</div>
+					<div class="stds">
+						<h3>Розклад занять</h3>
+						<p>Розклад занять на перший <br> та другий семестр</p>
+					</div>
+					<div class="stds">
+						<h3>Рейтингова успішність</h3>
+						<p>Рейтинги  успішності <br> наших студентів</p>
+					</div>
+					<div class="stds">
+						<h3>Гуртожиток</h3>
+						<p>Інформація про гуртожиток. <br> Дата заселеня студентів</p>
+					</div>
+				</center>
+			</section>
+			<section class="google">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1287.1997826431295!2d24.079665730320638!3d49.81615498372336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1540549518677" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+			<footer class="footer-distributed" id="contacts">
+
+			<div class="footer-left">
+
+				<h3>Львівський техніко-економічний коледж <br> національного університету "Львівська Політехніка"</h3>
+
+				<p class="footer-links">
+					<a href="#">Головна</a>
+					·
+					<a href="#">Про коледж</a>
+					·
+					<a href="#">Відділення</a>
+					·
+					<a href="#">Студенту</a>
+					·
+					<a href="#">Абітурієнту</a>
+					·
+					<a href="#">Новини</a>
+				</p>
+
+				<p class="footer-company-name">Львівський техніко-економічний коледж | всі права захищено. &copy; 2018-2019</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p>Львів, вул. Пасічна 87.</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+38(097)000-00</p> <br>
+					<i class="fa fa-phone"></i>
+					<p>+38(097)000-00</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">collage.email@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Про веб сайт</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+	</div>
+	</main>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
+<script type="text/javascript">
+			$('#ca-container').contentcarousel();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("a[href*=#]").on("click", function(e){
+var anchor = $(this);
+$('html, body').stop().animate({
+scrollTop: $(anchor.attr('href')).offset().top
+}, 777);
+e.preventDefault();
+return false;
+});
+});
+</script>
+</body>
+</html>
